@@ -1,0 +1,8 @@
+#PYTHON PROGRAM TO FIND AREA OF CIRCLE USING RADIUS
+
+from math import pi
+
+radius = float(input("ENTER THE VALUE OF RADIUSOF THE CIRCLE: "))
+Area = pi*radius*radius
+
+print("THE AREAOF CIRCLE WITH RADIUS " + str(radius) + " IS: " + str("%.8f" %Area))
